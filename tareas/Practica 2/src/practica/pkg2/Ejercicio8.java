@@ -39,6 +39,7 @@ public class Ejercicio8 {
                acum++;
                if(diaActual>7){
                    diaActual=1;
+
                }
            }
        }if(("Lunes".equals(diaS))||("lunes".equals(diaS))){

@@ -87,7 +87,7 @@ public class Practica2 {
                     break;
                 case 7:
                     Ejercicio7 oEjercicio7= new Ejercicio7();
-                    System.out.println("Digite el dia de una fecha");
+                    System.out.println("Digite la fecha del día");
                     teclado= new Scanner(System.in);
                     dia=Integer.parseInt(teclado.nextLine());
                     System.out.println("El Dia de la fecha digitada es:"+" "+oEjercicio7.dia(dia));
