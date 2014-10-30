@@ -30,8 +30,7 @@ public class PracticaArreglos {
      switch(opcion){
          case 1:
              Ejercicio1 oEjercicio1= new Ejercicio1();
-            Strng oStrng= new Strng();
-             System.out.println(oStrng.c());
+            
              for(int i=0;i<8;i++){
                  teclado= new Scanner(System.in);
                  System.out.println("Digite un valor en la posicion "+(i+1));
