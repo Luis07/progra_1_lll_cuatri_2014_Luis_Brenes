@@ -34,23 +34,34 @@ public class Clase9 {
         //System.out.println(oEjercicio2.mprimir());
         //*System.out.println(oEjercicio2.cambio());
    
-        //Ejercicio 3
-         int filas=0;
-        int columnas=0;
+        //*Ejercicio 3
+         //int filas=0;
+        //int columnas=0;
         Scanner teclado= new Scanner(System.in);
-        Ejercicio3 oEjercicio3= new Ejercicio3();
-        System.out.println("Digite la cantidad de filas de la Matriz");
-        teclado= new Scanner(System.in);
-        filas=teclado.nextInt();
-        System.out.println("Digite la cantidad de columnas de la matriz");
-        teclado= new Scanner(System.in);
-        columnas= teclado.nextInt();
-        oEjercicio3.CrearMatriz(filas, columnas);
-        oEjercicio3.cargamatriz();
-        System.out.println(oEjercicio3.mostrarmatriz());
-        System.out.println(oEjercicio3.impresion(columnas,filas));
+        //Ejercicio3 oEjercicio3= new Ejercicio3();
+        //System.out.println("Digite la cantidad de filas de la Matriz");
+        //teclado= new Scanner(System.in);
+        //filas=teclado.nextInt();
+        //System.out.println("Digite la cantidad de columnas de la matriz");
+        //teclado= new Scanner(System.in);
+        //columnas= teclado.nextInt();
+        //oEjercicio3.CrearMatriz(filas, columnas);
+        //oEjercicio3.cargamatriz();
+        //System.out.println(oEjercicio3.mostrarmatriz());
+        //System.out.println(oEjercicio3.impresion(columnas,filas));
 
         //Ejercicio4
+        int fila=0;
+        int columna=0;
+        ejerccicio4 oEjercicio4= new ejerccicio4();
+        System.out.println("Digite la cantidad de filas de la Matriz");
+        teclado= new Scanner(System.in);
+        fila=teclado.nextInt();
+        System.out.println("Digite la cantidad de columnas de la matriz");
+        teclado= new Scanner(System.in);
+        columna= teclado.nextInt();
+        oEjercicio4.CrearMatriz(fila, columna);
+        oEjercicio4.cargamatriz();
         
     }
     
